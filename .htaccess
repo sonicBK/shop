@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule "^san-pham$" "/?u=productController/show_list"
+RewriteRule "^san-pham-(.*)$" "/?u=productController/show_list/$1"
+RewriteRule "^san-pham/(.*)-(.*).html$" "/?u=productController/detail/$2/$1"
+RewriteRule "^thanh-toan.html$" "?u=orderController/add"
+RewriteRule "^gio-hang.html$" "?u=cartController/show"

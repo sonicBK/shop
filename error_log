@@ -1,0 +1,2 @@
+[22-Jan-2017 07:27:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonic123/public_html/core/database.php on line 16
+[22-Jan-2017 07:27:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonic123/public_html/core/database.php on line 16

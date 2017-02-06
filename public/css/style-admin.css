@@ -1,0 +1,167 @@
+body{
+		background-color: #f8f8f8;
+}
+
+#top{
+	padding: 10px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.user button{
+	border: none;
+	background-color: #f8f8f8;
+	position: relative;
+}
+
+#top h3{
+	margin: 0;
+}
+
+.dropdown-menu{
+	top: 42px;
+	left: auto;
+	right: 0;
+}
+.menu {
+	width: 250px;
+	float: left;
+}
+.menu>ul{
+	background-color: #f8f8f8;
+}
+
+.menu>ul>li{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.menu a{
+	font-size: 15px;
+	display: block;
+	padding: 10px 15px;
+}
+
+.menu i{
+	padding-right: 4px;
+}
+
+.menu a:hover{
+	background-color: #eeeeee;
+	text-decoration: none;
+}
+
+.menu form{
+	padding: 10px 15px;
+	margin: 0;
+}
+
+.main-content{
+	background-color: #fff;
+	margin: 0 0 0 250px;
+	padding: 20px 10px 30px 40px;
+	overflow: hidden;
+	display: block;
+	border-left: 1px solid #e7e7e7;
+	min-height: 600px;
+}
+
+.name-page{
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 20px;
+}
+
+.form{
+	padding: 10px 0;
+}
+
+.right{
+	float: right;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+}
+.active>a{
+	background-color: #eeeeee;
+}
+
+.active .right{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+}
+
+.list-menu ul a{
+	padding-left: 50px
+}
+td, th{
+	text-align: center;
+}
+.list-cate td:nth-child(1){
+	width: 10%;
+}
+.list-cate td:nth-child(2){
+	width: 45%;
+	text-align: left;
+}
+.list-cate td:nth-child(3){
+	width: 25%;
+	text-align: left;
+}
+}
+.list-cate td:nth-child(4){
+	width: 20%;
+}
+.head{
+	padding: 20px 0;
+	display: block;
+	overflow: hidden;
+}
+.name{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 90%;
+}
+.action{
+	float: right;
+	display: none;
+}
+
+tr:hover .action{
+	display: block;
+}
+
+.list-product td{
+	text-align: center;
+}
+.list-product td:nth-child(2){
+	text-align: left;
+	width: 30%;
+}
+.list-product td:nth-child(7){
+	width: 15%
+}
+
+.head select{
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+nav{
+	text-align: center;
+}
+
+.pagination .current{
+	background-color: #eee;
+}
+
+.pagination .disable{
+	opacity: .5;
+	cursor: not-allowed;
+}

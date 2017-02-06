@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chi tiet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="public/bootstrap3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<style type="text/css">
+		.slider .img-slide{
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+	display: block;
+}
+.slider img{
+	width: 100%;
+}
+	</style>
+</head>
+<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1613684402262934";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script><!--end plugin fb-->
+	<header>
+		<div class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="pull-left">
+							<i class="glyphicon glyphicon-earphone"></i>
+							Hotline: <span>0123456789</span>
+						</div>
+						<div class="pull-right">
+							<ul class="list-unstyled">
+								<li><a href="#"><i class="glyphicon glyphicon-earphone"></i>Hotline: <span>0123456789</span></a></li>
+								<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+								<li><a href="#"><i class="fa fa-key" aria-hidden="true"></i>Đăng ký</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--end .top-bar -->
+		<div class="header-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-12 col-sm-12">
+						<div class="logo">
+							<a href="/" title>
+								<img src="public/img/logo.png" class="img-responsive">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-12">
+						<div class="box-search">
+							<div class="input-group">
+						    <input type="text" class="form-control" placeholder="Tìm kiếm...">
+						    <span class="input-group-btn">
+						    <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+						    </span>
+						 </div><!-- /input-group -->
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12 col-sm-12">
+						<div class="cart pull-right">
+							<a href="#">
+								<span class="icon">icon</span>
+								<span id="cart-info">
+									1 sp -- 1.000.000đ
+								</span>
+								<i class="fa fa-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--end .main-header -->
+		<div class="main-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="list-unstyled nav nav-pills">
+							<li class="active"><a href="#">Trang chủ</a></li>
+							<li><a href="#">Giới thiệu</a></li>
+							<li><a href="#">Sản phẩm</a></li>
+							<li><a href="#">Hướng dẫn mua hàng</a></li>
+							<li><a href="#">Tin tức</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--end .main-nav -->
+	</header>
+	<section class="content">
+		<div class="container">
+			<div class="breadcrumb">
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Trang chủ</a></li>
+				<li class="active">sản phẩm</li>
+			</div>
+			<div class="col-md-9 pull-left">
+				<div class="product-detail">
+					<div class="product-info">
+						<div class="row">
+							<div class="col-md-6 box-cover">
+								<div class="cover">
+									<img src="public/img/1.jpg">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="name">
+									<h2>SPF 25 PA++</h2>
+								</div>
+								<div class="price">1.300.000đ</div>
+								<div class="social">
+									<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true" height: 30px></div>
+								</div>
+								<div class="quantity">
+								<label>số lượng</label>
+									<div>
+										<input type="number" name="quantity" min="1" max="10" value="1">
+									</div>
+								</div>
+								<div class="book">
+									<a href="#" class="add-to-cart">
+									<i class="glyphicon glyphicon-shopping-cart"></i>thêm vào giỏ hàng</a>
+									<a href="#" class="buy">
+									<i class="glyphicon glyphicon-ok"></i>mua ngay</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tabs">
+						<ul class="nav nav-tabs">
+						    <li class="active"><a data-toggle="tab" href="#home">chi tiết sản phẩm</a></li>
+						    <li><a data-toggle="tab" href="#menu1">Hướng dẫn sử dụng</a></li>
+						</ul>
+						<div class="tab-content">
+						    <div id="home" class="tab-pane fade in active">
+						      tab#1
+						    </div>
+						    <div id="menu1" class="tab-pane fade">
+						      tab#2
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div class="title">
+						<h3>sản phẩm khác</h3>
+					</div>
+					<div class="row">
+						<div class="list">
+							<div class="col-md-4 col-sm-4 box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="comment">
+					<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" data-width="100%"></div>
+				</div>
+			</div>
+			<div class="col-md-3 pull-right">
+				<div class="special">
+					<div class="title">
+						<h3>Xem nhiều</h3>
+					</div>
+					<div class="list col-md-12">
+						<div class="box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="box-item">
+								<div class="product-item" ">
+									<div class="image">
+										<a href="#">
+											<img src="public/img/td1.jpg">
+										</a>
+										<div class="desc-sort">
+											sản phẩm gì đó
+										</div>
+									</div>
+									<div class="name"><a href="#">ohui auto cover cream</a></div>
+									<div class="price">
+										<span class="price-new">1.300.000&nbsp;₫</span>
+										<span class="price-old">1.300.000&nbsp;₫</span>
+									</div>
+									<div class="buy">
+										<a href="#">mua</a>
+									</div>
+									
+								</div>
+							</div>
+					</div>
+				</div><!--end .special-->
+				<div class="news">
+					<div class="title">
+						<h3>Tin tức</h3>
+					</div>
+					<div class="list col-md-12">
+						<div class="box-item">
+								<div class="product-item" ">
+									<a href="">
+										<div class="image">
+											<img src="public/img/td1.jpg">
+										</div>
+									</a>
+									<div class="name">OHUI AUTO COVER CREAM</div>
+									<div class="price">1.300.000đ</div>
+									<div class="buy">mua</div>
+								</div>
+							</div>
+							<div class="box-item">
+								<div class="product-item" ">
+									<a href="">
+										<div class="image">
+											<img src="public/img/td1.jpg">
+										</div>
+									</a>
+									<div class="name">OHUI AUTO COVER CREAM</div>
+									<div class="price">1.300.000đ</div>
+									<div class="buy">mua</div>
+								</div>
+							</div>
+							<div class="box-item">
+								<div class="product-item" ">
+									<a href="">
+										<div class="image">
+											<img src="public/img/td1.jpg">
+										</div>
+									</a>
+									<div class="name">OHUI AUTO COVER CREAM</div>
+									<div class="price">1.300.000đ</div>
+									<div class="buy">mua</div>
+								</div>
+							</div>
+					</div>
+				</div><!--end .news-->
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<h3 class="title-footer">Giới thiệu</h3>
+						<ul class="list-unstyled">
+							<li><a href="#">về chúng tôi</a></li>
+							<li><a href="#">Lĩnh vực hoạt động</a></li>
+							<li><a href="#">Hỏi đáp</a></li>
+							<li><a href="#">Quy chế hoạt động</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h3 class="title-footer">trợ giúp</h3>
+						<ul class="list-unstyled">
+							<li><a href="#">Hướng dẫn mua hàng</a></li>
+							<li><a href="#">Chính sách đổi trả</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h3 class="title-footer">liên hệ</h3>
+						<ul class="list-unstyled">
+							<li><a>sonic</a></li>
+							<li><a>Bạch Mai, Hà Nội</a></li>
+							<li><a>sonic.hust@gmail.com</a></li>
+							<li><a>phone: 0123456789</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h3 class="title-footer">facebook</h3>
+						<div class="fb-page" data-href="https://www.facebook.com/Design-3D-825282054247667/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Design-3D-825282054247667/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Design-3D-825282054247667/">Design 3D</a></blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<h2>copyright</h2>
+			</div>
+		</div>
+	</footer>
+	<span id="back-to-top">
+		<i class="fa fa-angle-up"></i>
+	</span>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="public/bootstrap3/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/8da12d219b.js"></script>\
+	<script src="public/js/myjs.js"></script>
+</body>
+</html>
